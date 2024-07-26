@@ -1,0 +1,13 @@
+                                     Module 4 - CSS and CSS 3
+
+Q.1  What are the benefits of using CSS?
+
+Ans:-  
+      1. CSS allows web developers to separate the structure and design of a web page. This separation makes it easier to maintain and update websites, as changes to the design can be made without altering the content.
+
+      2. Easy for the user to customize the online page.
+
+      3. CSS is essential for creating responsive web designs that adapt to various screen sizes and devices. Media queries in CSS can be used to change the layout and styling of a page based on the screen size.
+
+      4. With external CSS files, you can style multiple web pages with the same design, ensuring a uniform appearance across the entire website.
+

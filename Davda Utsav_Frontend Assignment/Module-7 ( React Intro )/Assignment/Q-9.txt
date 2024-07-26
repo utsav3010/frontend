@@ -1,0 +1,21 @@
+Q-9  How to change in components of React Js?
+
+Ans:- 
+     --> In React, components are the building blocks of your application. Changing components can involve updating their state, props, lifecycle methods, or rendering logic. Here’s a comprehensive guide on how to change different aspects of React components:
+
+     1. Updating Component State
+        -> Functional Component
+        -> Class Component 
+     2. Passing and Changing Props
+        -> Parent Component
+        -> Child Component
+     3. Conditional Rendering
+     4. Lifecycle Methods
+     5. Using Hooks for Side Effects
+     6. Handling User Input
+     7. Styling Components
+        -> inline style
+        -> internal style
+        -> external style
+
+ 

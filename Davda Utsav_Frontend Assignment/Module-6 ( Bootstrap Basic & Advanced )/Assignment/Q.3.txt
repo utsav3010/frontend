@@ -1,0 +1,33 @@
+Q.3  What are the default Bootstrap text settings?
+
+Ans: 
+     --> The bootstrap text settings are:
+
+     --> 1. Headings:
+
+     Ex:
+     <p class="h1">h1. Bootstrap heading</p>
+     <p class="h2">h2. Bootstrap heading</p>
+     <p class="h3">h3. Bootstrap heading</p>
+     <p class="h4">h4. Bootstrap heading</p>
+     <p class="h5">h5. Bootstrap heading</p>
+     <p class="h6">h6. Bootstrap heading</p>  
+
+     --> 2. Inline text elements
+
+     Ex:
+     1. small: <h1 class="small"> DAVDA UTSAV </h1>
+     2. text underline: <h1 class="text-decoration-underline"> DAVDA UTSAV </h1> 
+     3. text line through: <h1 class="text-decoration-line-through"> DAVDA UTSAV </h1>
+
+     --> 3. Inline: Remove a list’s bullets and apply some light margin with a combination of two classes, .list-inline and .list-inline-item.
+
+     Ex:
+     <ul class="list-inline">
+        <li class="list-inline-item"> Home </li>
+        <li class="list-inline-item"> About </li>
+        <li class="list-inline-item"> Contact </li>
+     </ul>
+
+     --> In boostarp is Extra several default text settings.
+

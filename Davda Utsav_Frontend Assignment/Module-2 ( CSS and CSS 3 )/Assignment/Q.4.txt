@@ -1,0 +1,15 @@
+Q.4  Name a few CSS style components 
+
+Ans:- 
+      CSS style components:- 
+      1. Selectors: selectors is id,class etc.. (id is defind by(#) and class is defind by(.))
+
+      2. Properties: properties are color, font-size, background-color, margin, padding, border etc..
+
+      3. Values: Values are assigned to properties to specify the desired style. (For example, color: red sets the text color to red, and font-size: 16px sets the text size to 16 pixels.)
+
+      4. Layout and Positioning: 1.position (relative and absolute), 2.float (left and right), 3.display (block,inline) etc.. 
+
+      5. Media Queries (@media): These are used for responsive web design, allowing you to apply different styles based on the screen size, device orientation, and other factors.
+
+      

@@ -1,0 +1,12 @@
+Q-5  What is Components in React Js?
+
+Ans:-
+     --> In React.js, components are the building blocks of a React application. They are reusable pieces of the user interface that can be nested, managed, and handled independently. Each component in React.js typically corresponds to a part of the UI, and they can be composed to create complex UIs.
+
+     --> React Js components:
+     1. Function Components
+     2. Class Components
+     3. JSX (JavaScript XML)
+     4. Props (Properties)
+     5. State
+

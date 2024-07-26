@@ -1,0 +1,51 @@
+<!-- Q.2  How to Apply CSS Using JQuery, How to Add Class and Remove Class in
+Jquery, JQuery Animation? -->
+
+<!-- Ans:-  Example of JQuery Animation -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- Apply Jquery Online Cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#box").animate({
+                    left: "500px",
+                    top: "200px",
+                });
+            })
+        })
+    </script>
+
+    <!-- Css -->
+    <style>
+        #box {
+            width: 250px;
+            height: 250px;
+            background-color: red;
+            position: absolute;
+        }
+        button {
+            width: 150px;
+            height: auto;
+            padding: 10px;
+            border: none;
+            background-color: grey;
+            color: white;
+            margin-top: 21%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box"></div>
+    <button type="button" id="btn"> Click For Move </button>
+</body>
+</html>

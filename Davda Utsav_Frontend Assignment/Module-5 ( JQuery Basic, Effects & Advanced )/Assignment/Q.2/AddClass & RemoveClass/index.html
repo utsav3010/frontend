@@ -1,0 +1,48 @@
+<!-- Q.2  How to Apply CSS Using JQuery, How to Add Class and Remove Class in
+Jquery, JQuery Animation? -->
+
+<!-- Ans:-  Example of add class and remove class-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta charset='utf-8'>
+      <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+      <title>Page Title</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+      <!-- Apply Jquery Online Cdn -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+            // --> addClass Example
+            $(document).ready(function () {
+                  $("div").addClass("box");
+            })
+
+            // --> removeClass Example
+            // $(document).ready(function(){
+            //       $("div").removeClass("box");
+            // })
+      </script>
+      
+      <!-- add a css -->
+      <style>
+            .box {
+                  width: 60%;
+                  height: auto;
+                  margin: auto;
+                  background-color: gray;
+                  padding: 20px;
+                  margin-top: 15%;
+            }
+      </style>
+</head>
+
+<body>
+      <div>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sequi asperiores culpa pariatur excepturi provident, nulla earum illum animi similique iusto! Rerum ea atque accusamus dolor deserunt pariatur vel sit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, expedita officiis reprehenderit, vitae distinctio eligendi perferendis rem nesciunt cupiditate illum modi quibusdam, saepe repellendus eveniet neque iste tenetur voluptate nihil! 
+            </p>
+      </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+Q.7  How can image repetition of the backup be controlled?
+
+Ans:- 
+     The background-repeat property in CSS is used to repeat the background image both horizontally and vertically. It also decides whether the background image will be repeated or not.
+
+Syntax:-
+         background-repeat: background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit;
+    
+Ex.  
+    body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; /* This ensures the image covers the entire background */
+}
+
+--> repeat: The background image will repeat both horizontally and vertically.
+--> repeat-x: The background image will repeat only horizontally.
+--> repeat-y: The background image will repeat only vertically.
+--> no-repeat: This prevents the image from repeating
+

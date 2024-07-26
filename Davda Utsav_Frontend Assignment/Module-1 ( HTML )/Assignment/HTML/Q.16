@@ -1,0 +1,16 @@
+Q.16 --> How are active links different from normal links?
+
+Ans:-
+      
+      -> Normal Link:
+
+      1. Normal links are the default appearance of hyperlinks on a web page.
+      2. They are typically styled with a specific color, often blue, and are usually underlined to indicate that they are clickable.
+      3. Normal links are in their default state when the web page initially loads.
+
+
+      -> Active Link:
+
+      1. Active links are used to provide immediate feedback to the user that their click has been registered and the browser is in the process of navigating to the linked content.
+      2. Visual styles for active links can vary but often include changes like temporarily changing the link's color or adding a highlight to indicate the link is currently being activated.
+

@@ -1,0 +1,33 @@
+Q.2  What is a Bootstrap Container, and how does it work?
+
+Ans: 
+     --> In Bootstrap, a container is a crucial component that helps structure the layout of your web page. It is a wrapper element that contains and centers the content within a fixed or responsive-width container. The primary purpose of using a container is to provide a consistent and controlled layout for your website.
+
+     --> Bootstrap containers are three types:
+     1. Default container 
+     2. Responsive container 
+     3. Fluid container
+
+     --> 1. Default container
+
+     syntax:
+     <div class="container">
+       <!-- Content is type here -->
+     </div>
+
+     --> 2. Responsive container
+
+     syntax:
+     <div class="container-sm"> <!-- small --> </div>
+     <div class="container-md"> <!-- medium --> </div>
+     <div class="container-lg"> <!-- large --> </div>
+     <div class="container-xl"> <!-- extra large --> </div>
+     <div class="container-xxl"> <!-- extra extra large --> </div>
+
+     --> 3. Fluid container
+
+     syntax:
+     <div class="container-fluid">
+       <!-- Content is type here -->
+     </div>
+

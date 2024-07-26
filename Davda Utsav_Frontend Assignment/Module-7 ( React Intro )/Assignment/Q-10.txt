@@ -1,0 +1,27 @@
+Q-10  How to Create a List View in React Js?
+
+Ans:- 
+     --> Step 1: Set Up Your React Environment
+     create the react app to using command.
+
+     --> Step 2: Create a List Component
+     Create a new file named ListView.js inside the src folder.
+     Example: 
+     import React from 'react';
+
+     const ListView = ({ items }) => {
+     return (
+     <ul>
+      {items.map((item, index) => (
+        <li key={index}>{item}</li>
+      ))}
+     </ul>
+     );
+     };
+
+     export default ListView;
+
+     --> Step 3: Use the List Component in the App Component
+     --> Step 4: Styling the List
+     --> Step 5: Adding Interactivity
+

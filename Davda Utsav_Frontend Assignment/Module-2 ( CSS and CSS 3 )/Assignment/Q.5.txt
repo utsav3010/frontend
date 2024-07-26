@@ -1,0 +1,14 @@
+Q.5  What do you understand by CSS opacity?
+
+Ans:- 
+     CSS opacity is a property that allows you to control the transparency of an element in a web page. Opacity is defined as a value between 0 and 1, where 0 represents complete transparency  and 1 represents full opacity.
+
+     You can apply opacity to various HTML elements, such as text, images, backgrounds, and entire containers. When you apply opacity to an element, it affects not only the element itself but also any child elements within it, making the entire element and its content more or less transparent.
+
+     Ex. 
+        .opacity 
+         {
+            background-color: rgba(255, 0, 0, 0.5);  /* 0.5 is a opacity */
+         }
+
+         

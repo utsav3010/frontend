@@ -1,0 +1,5 @@
+Q-1  What is React Js?
+
+Ans:- 
+      --> React.js, often simply referred to as React, is an open-source JavaScript library used for building user interfaces, particularly for single-page applications and complex web applications. It was developed by Facebook and later maintained by both Facebook and a community of individual developers and companies. React allows developers to create reusable UI components and efficiently manage the state of those components.
+

@@ -1,0 +1,15 @@
+                                           Module 5 - HTML5
+Q.1  What are the new tags added in HTML5?
+
+Ans:- 
+      Add a new tag in HTML5:  1. <section> tag
+                               2. <mark> tag 
+                               3. <progress> tag
+                               4. <details> tag
+                               5. <summary> tag
+                               6. <nav> tag
+                               7. <figcaption> tag 
+                               8. <embed> tag
+                               9. <audio> tag 
+                               10. <video> tag etc.. 
+

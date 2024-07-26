@@ -1,0 +1,15 @@
+Q-2  What is NPM in React Js?
+
+Ans:-
+      --> NPM is a Node Package Manager for JavaScript, primarily used to install, share, and manage dependencies (libraries or frameworks) in your projects. It comes bundled with Node.js, which you need to install on your machine to use NPM.
+
+      --> Install npm:
+      1. download node.js
+      2. install node.js with npm package are install
+      3. after install node.js and npm or npx crate the react-applications
+
+      --> Create react-app using npm 
+      1. npx create-react-app app-name
+      2. cd app-name
+      3. npm start
+

@@ -1,0 +1,14 @@
+Q.1  What is JavaScript?
+
+Ans:- 
+     --> JavaScript is a versatile and widely-used programming language primarily known for its capability to add interactivity and dynamic content to websites. 
+     --> It is a high-level, interpreted scripting language that can be embedded directly into HTML to enhance the functionality of web pages. 
+     --> JavaScript enables developers to create dynamic and responsive user interfaces, handle events, manipulate the Document Object Model (DOM), and communicate with servers to fetch or send data asynchronously.
+
+     Key features of JavaScript include:
+     1. Client-Side Scripting
+     2. Object-Oriented
+     3. Asynchronous Programming
+     4. Cross-Platform
+     5. Versatility
+

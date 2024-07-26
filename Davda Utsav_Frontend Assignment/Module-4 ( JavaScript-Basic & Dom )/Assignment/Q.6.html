@@ -1,0 +1,59 @@
+<!-- Q.6  Write the code for adding new elements dynamically? -->
+
+<!-- Ans: -->
+
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset='utf-8'>
+     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+     <title>Page Title</title>
+     <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+     <script src='main.js'></script>
+
+     <!-- apply internal css start here -->
+     <style>
+          body
+          {
+               background-color: gray;
+          }
+          input
+          {
+               width: 30%;
+               margin-left: 34%;
+               margin-top: 10%;
+               padding: 5px;
+          }
+          button
+          {
+               width: 7%;
+               padding: 5px;
+               margin-left: 45%;
+          }
+     </style>
+     <!-- apply internal css end here -->
+
+</head>
+<body>
+     <h1 align="center"> Adding elements dynamically </h1>
+     <hr>
+     <input type="text" placeholder="Enter your name...*" id="name">
+     <br><br>
+     <button onclick="display()"> Click Me </button>
+     <p align="center" id="result"></p>
+
+     <!-- internal javascript is start here -->
+     <script>
+         function display() {
+          var nm=document.getElementById("name").value;
+          document.getElementById("result").innerHTML="Your Name Is: "+nm;
+          result.style.transition="2s ease-in-out";
+          result.style.fontSize="30px"; 
+         } 
+     </script>
+     <!-- internal javascript is end here -->
+
+</body>
+</html>
+

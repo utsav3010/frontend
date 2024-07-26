@@ -1,0 +1,24 @@
+Q.2  How to embed audio and video in a webpage?
+
+Ans:-
+      1. Embed Audio: 
+      --> Use the <audio> element to embed audio.
+      --> Provide at least one <source> element inside the <audio> element to specify the audio source. You can provide multiple <source> elements with different formats for broader browser compatibility.
+
+      Ex. 
+          <!-- Audio Embed -->
+          <audio controls>
+              <source src="audio.mp3" type="audio/mpeg">
+          </audio> 
+ 
+      2. Embed Video:
+      --> Use the <video> element to embed video.
+      --> You can specify the width and height attributes to set the dimensions of the video player.
+      --> Similar to audio, use one or more <source> elements inside the <video> element to specify the video source.
+
+      Ex. 
+         <!-- Video Embed -->
+         <video controls width="640" height="360">
+             <source src="video.mp4" type="video/mp4">
+         </video>
+    

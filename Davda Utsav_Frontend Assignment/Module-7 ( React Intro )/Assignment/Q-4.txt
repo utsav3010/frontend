@@ -1,0 +1,11 @@
+Q-4  What is CLI command In React Js?
+
+Ans:- 
+     --> React.js, CLI commands are tools that developers use to interact with their projects and perform various tasks directly from the terminal or command prompt. The most commonly used CLI for React.js projects is Create React App.
+
+     --> CLI command For using for react.js app
+      Create react-app using npm:
+      1. npx create-react-app app-name
+      2. cd app-name
+      3. npm start  
+

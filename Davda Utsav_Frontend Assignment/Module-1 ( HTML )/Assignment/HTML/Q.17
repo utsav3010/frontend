@@ -1,0 +1,17 @@
+Q.17 --> What are the different tags to separate sections of text?
+
+Ans:-
+      
+     The Tag Of Separate Sections Of Text: 
+     <p> 
+     <br>
+     <blockquote>
+
+     Example:
+              
+              -> Ex. of <p> tag:
+              <p>This is a paragraph.</p>
+
+              -> Ex. of <p> with <br> tag:
+              <p>hello, i am Davda Utsav,<br>i am Frontend Developer.
+

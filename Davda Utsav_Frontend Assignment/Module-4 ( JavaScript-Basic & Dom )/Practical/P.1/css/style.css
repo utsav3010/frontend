@@ -1,0 +1,28 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: gray;
+}
+.box
+{
+    width: 40%;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: white;
+}
+#dis
+{
+    width: 50%;
+    padding: 5px;
+}
+#res
+{
+    font-size: 20px;
+}
+input[type=checkbox]
+{
+    zoom: 1.3;
+}

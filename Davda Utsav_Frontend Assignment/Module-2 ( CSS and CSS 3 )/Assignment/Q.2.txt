@@ -1,0 +1,12 @@
+Q.2  What are the disadvantages of CSS? 
+
+Ans:- 
+      1. There are multiple levels which creates confusion for non-developers and beginners.
+
+      2. With CSS, what works with one browser might not always work with another. The web developers need to test for compatibility, running the program across multiple browsers.
+
+      3. After making the changes we need to confirm the compatibility if they appear. The similar change affects on all the browsers.
+
+      4. As CSS specifications evolve, some features may not be supported in older browsers, requiring developers to use alternative methods or provide fallbacks.
+
+      

@@ -1,0 +1,27 @@
+Q.15 --> How to insert a picture into a background image of a web page? With Example.
+
+Ans:- 
+      
+      The most common & simple way to add background image is using the background image attribute inside the <body> tag.
+      Second method is create a CSS to add background image.
+
+      Example:
+
+               -> Using <body> tag in Html:
+
+                  <body background="background_image/image1.jpg">
+
+
+               -> Using CSS in <style> tag in Html:
+
+                <style>
+                    body
+                    {
+                        <!-- background: url('enter a image path') no-repeat; -->
+                        background: url('background_image/image1.jpg') no-repeat;
+                        background-size: cover;
+                        background-attachment: fixed;
+                    }
+                </style>
+             
+                

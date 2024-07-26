@@ -1,0 +1,19 @@
+Q.12 --> How to create a Hyperlink in HTML? With Example.
+
+Ans:- 
+      
+      In HTML, you can create hyperlinks using the <a> (anchor) element. 
+
+      Example:
+               
+              -> <a href="url"> link text </a>
+
+              -> <a href="https://www.google.com/"> Visit Google.com </a>
+
+              -> <h2> Using Hyperlink </h2>
+                 <p> Visit Google.com Website: </p>
+                 <a href="https://www.google.com/"> Google </a>
+
+                 <p> Visit Tops Technologies Website: </p>
+                 <a href="https://www.tops-int.com/"> Tops Technologies </a>
+

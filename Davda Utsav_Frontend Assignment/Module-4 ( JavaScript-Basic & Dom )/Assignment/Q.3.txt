@@ -1,0 +1,11 @@
+Q.3  What is negative Infinity?
+
+Ans:-
+      --> The negative infinity in JavaScript is a constant value that is used to represent a value that is the lowest available. This means that no other number is lesser than this value. It can be generated using a self-made function or by an arithmetic operation. 
+
+      --> JavaScript shows the NEGATIVE_INFINITY value as -Infinity.
+
+      --> Negative infinity results in -0(different from 0 ) when divided by any other number.
+
+      --> When divided by itself or positive infinity, negative infinity return NaN.
+

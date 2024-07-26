@@ -1,0 +1,40 @@
+Q.11 --> What is the difference between a block-level element and an inline element?
+
+Ans:- 
+      
+      -> Block-level Element:
+      1. A block-level element always starts on a new line, and the browsers automatically add some space before and after the element.
+      2. A block-level element always takes up the full width available.
+
+      The Block-level Element are: 
+                                   1. <div>
+                                   2. <p>
+                                   3. <h1> to <h6>
+                                   4. <ul>
+                                   5. <ol>
+                                   6. <li> etc..
+
+      Two commonly used block elements are: <p> and <div>.
+
+      Example: 
+
+      <p style="border: 1px solid black">Dava Utsav</p>
+      <div style="border: 2px solid black" align="center">Frontend Developer</div>
+
+
+      -> Inline Element:
+      1. An inline element does not start on a new line.
+      2. An inline element only takes up as much width as necessary.
+
+      The Inline Element are: 
+                               1. <span>
+                               2. <a>
+                               3. <i>
+                               4. <em>
+                               5. <b>
+                               6. <img> etc..
+                        
+      Example of <span> and <b> tag:
+
+      <p> Hello, I am <span style="border: 1px solid black; color: gray; background-color: aqua;"><b>DAVDA UTSAV</b></span> I am <span style="border: 1px solid black; color: gray; background-color: aqua;"><b>FRONTEND DEVELOPER.<b></span></p>
+                              

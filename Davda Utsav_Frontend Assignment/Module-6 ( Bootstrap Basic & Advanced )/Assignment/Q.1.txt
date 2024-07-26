@@ -1,0 +1,13 @@
+Q.1  What are the advantages of Bootstrap?
+
+Ans: 
+     --> Bootstrap, a popular open-source front-end framework, offers several advantages that make it a preferred choice for web developers. Here are some key advantages of using Bootstrap: 
+
+     1. Responsive Design
+     2. Consistent and Professional Look
+     3. Time Efficiency
+     4. Extensive Documentation
+     5. Browser Compatibility
+     6. Customizable Components
+     7. Accessibility Features
+

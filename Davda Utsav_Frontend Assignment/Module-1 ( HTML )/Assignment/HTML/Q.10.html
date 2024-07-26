@@ -1,0 +1,66 @@
+<!-- Q.10 How can we club two or more rows or columns into a single row or column in an HTML
+table? With Example. -->
+
+<!-- Ans:- To merge two or more rows or columns into a single row or column in an HTML table, you can use the rowspan and colspan attributes. These attributes allow you to specify how many rows or columns a cell should span. --> 
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Page Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='main.js'></script>
+    </head>
+    <body>
+
+        <!-- Example of rowspan--> 
+        <table align="center" border="2" cellspacing="6" cellpadding="6" width="45%" style="margin-top: 5%;">
+            
+            <tr>
+                <caption>Example of rowspan</caption>
+            </tr>
+        
+            <tr>
+                <th rowspan="4">List of IT Courses</th>
+                <td>1.Fullstack Developer</td>
+            </tr>
+
+            <tr>
+                <td>2.Frontend Developer</td>
+            </tr>
+            
+            <tr>
+                <td>3.Backend Developer</td>
+            </tr>
+            
+            <tr>
+                <td>4.Application Developer</td>
+            </tr>
+            
+        </table>
+        
+
+<!-- Example of colspan--> 
+<table align="center" border="2" cellspacing="6" cellpadding="7" width="45%" style="margin-top: 4%;">
+       
+    <tr>
+        <caption>Example of colspan</caption>
+    </tr>
+ 
+    <tr align="center"> 
+      <td colspan="4"> DAVDA UTSAV</td>
+    </tr>
+
+    <tr align="center">
+      <td>DAVDA</td>
+      <td>UTSAV</td> 
+      <td>DAVDA</td>
+      <td>UTSAV</td>
+    </tr>
+
+  </table>
+ 
+    </body>
+    </html>

@@ -1,0 +1,14 @@
+Q.9  Which property controls the image scroll in the background?
+
+Ans:-
+      The background-attachment property in CSS is used to specify the kind of attachment of the background image with respect to its container. It can be set to scroll or make it remain fixed. It can be applied to all HTML elements.
+
+Syntax:-
+         background-attachment: scroll|fixed|local|initial|inherit;
+        
+--> scroll: The background image will scroll along with the content.
+--> fixed: The background image will remain fixed in place while the content scrolls.
+--> local: The background image will scroll with the element's contents, but not the entire page.
+--> initial: Sets the property to its default value.
+--> inherit: Inherits the property from its parent element.
+

@@ -1,0 +1,27 @@
+Q.4  Canvas and SVG tags
+
+Ans:-
+      1. SVG tag (Scalable Vector Graphics): 
+      --> <svg> is an XML-based vector graphics format that can be embedded directly into HTML. It defines graphics in terms of shapes, paths, and text, and it is resolution-independent.
+      --> You can use attributes and elements within the SVG to define shapes, lines, curves, and text.
+      --> SVG is often used for static graphics, data visualizations, icons, and logos. It is well-suited for graphics that need to adapt to various screen sizes and resolutions.
+
+      Ex. 
+          <svg width="200" height="100">
+            <rect width="150" height="100" fill="blue" />
+          </svg>
+
+       2. CANVAS tag: 
+       --> <canvas> is an HTML5 element that provides a drawing surface for 2D graphics. It allows you to create and manipulate graphics using JavaScript.
+       --> You can use JavaScript to draw shapes, images, and text on the canvas, and you have fine-grained control over each pixel.
+       --> Canvas is typically used for complex, dynamic graphics and animations, such as games, data visualizations, and interactive charts.
+
+       Ex. 
+          <canvas id="myCanvas" width="400" height="200"></canvas>
+          <script>
+            const canvas = document.getElementById('myCanvas');
+            const ctx = canvas.getContext('2d');
+            ctx.fillStyle = 'red';
+            ctx.fillRect(50, 50, 150, 150);
+          </script>
+

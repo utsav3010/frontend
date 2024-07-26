@@ -1,0 +1,34 @@
+Q-1  Explain Life cycle in Class Component and functional component with Hooks
+
+Ans:- 
+     --> Class Components:
+     Class components in React have several lifecycle methods that can be overridden to run code at specific times in a component's life. The lifecycle methods are categorized into three main phases: mounting, updating, and unmounting.
+
+     1. Mounting: This phase includes methods called when an instance of a component is being created and inserted into the DOM.
+     --> constructor()
+     --> static getDerivedStateFromProps()
+     --> componentDidMount()
+
+     2. Updating: This phase includes methods called when the component is being re-rendered due to changes in props or state.
+     --> static getDerivedStateFromProps()
+     --> shouldComponentUpdate()
+     --> render()
+     --> getSnapshotBeforeUpdate()
+     --> componentDidUpdate()
+
+     3. Unmounting: This phase includes methods called when a component is being removed from the DOM.
+     --> componentWillUnmount()
+
+     --> Functional Components with Hooks:
+     Functional components were traditionally stateless and did not have lifecycle methods. However, with the introduction of hooks in React 16.8, functional components can now have state and side effects, similar to class components. Here are the main hooks used to manage component lifecycle:
+
+     1. useState(): This hook allows you to add state to functional components. It returns an array with the current state and a function to update it.
+
+     2. useEffect(): This hook allows you to perform side effects in functional components. It combines componentDidMount, componentDidUpdate, and componentWillUnmount into a single API.
+
+     3. useContext(): This hook allows you to subscribe to React context without introducing nesting.
+
+     4. useReducer(): This hook is usually preferable to useState when you have complex state logic that involves multiple sub-values or when the next state depends on the previous one.
+
+     5. useCallback(): This hook returns a memoized callback function. It’s useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders.
+

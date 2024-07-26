@@ -1,0 +1,47 @@
+Q.9  How can the style/class of an element be changed?
+
+Ans:- 
+      --> In JavaScript, to change the style/class of an element, you can manipulate its properties directly. Here's a concise definition for each method:
+
+      --> 1. Changing Style:
+      --> syntax: 
+      // Change the style of an element directly
+      element.style.property = value;
+
+      --> 2. Adding/Removing CSS Classes:
+      // Add a CSS class to an element
+      element.classList.add("className");
+
+      // Remove a CSS class from an element
+      element.classList.remove("className");
+
+      --> Example: Example of changing style (using id and class both to add a style):
+      <html>
+      <body>
+
+      <input type="text" id="name">
+      <button onclick="display()">Submit</button>
+      <p class="error">Please enter a valid name.</p>
+
+      <script>
+        function display() {
+            var name = document.getElementById("name").value;
+            var para = document.querySelectorAll(".error");
+
+            // Regular expression to check only alphabetical characters
+            var namePattern = /^[a-zA-Z\s]+$/;
+
+            if (namePattern.test(name)) {
+                // Valid name
+                para[0].innerHTML = "Your name is correct";
+                para[0].style.color = "green";
+            } else {
+                // Invalid name
+                para[0].innerHTML = "Please, using only alphabetical characters";
+                para[0].style.color = "red";
+            }
+        }
+      </script>
+      </body>
+      </html>
+

@@ -1,0 +1,9 @@
+Q.6  How can the background color of an element be changed?
+
+Ans:- 
+      To add background color in HTML, use the CSS background-color property. Set it to the color name or code you want and place it inside a style attribute. Then add this style attribute to an HTML element, like a table, heading, div, or span tag.
+
+Syntax:- 
+         background-color: red; (add color name)
+
+         

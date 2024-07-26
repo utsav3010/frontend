@@ -1,0 +1,12 @@
+Q.3  Semantic element in HTML5?
+
+Ans:- 
+      Semantic element: 1. <header> tag
+                        2. <nav> tag
+                        3. <main> tag 
+                        4. <article> tag 
+                        5. <section> tag 
+                        7. <details> tag
+                        8. <mark> tag etc.. 
+
+                        

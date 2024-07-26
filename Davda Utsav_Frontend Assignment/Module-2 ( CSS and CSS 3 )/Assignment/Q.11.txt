@@ -1,0 +1,22 @@
+Q.11  How to center block elements using CSS1?
+
+Ans:- 
+
+1. Auto Margins: 
+You can use auto margins to center a block-level element horizontally within its containing element. This technique relies on setting the left and right margins to 'auto'.
+
+Syntax:- 
+         width: 50%;
+         margin-left: auto;
+         margin-right: auto;
+
+2. Text Alignment:
+If the block element contains inline content, you can use the text-align property on the parent to center it horizontally.
+This works if the block contains inline content, but it won't work as well if the content is block-level.
+
+Syntax:- 
+        text-align: center;
+        
+        display: inline; /* or inline-block */
+
+        
